@@ -1,5 +1,6 @@
 package Digest::HMAC;
-$VERSION = "1.03";
+# VERSION
+# AUTHORITY
 
 use strict;
 

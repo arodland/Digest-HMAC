@@ -64,7 +64,11 @@ This module provide HMAC-SHA-1 hashing.
 
 L<Digest::HMAC>, L<Digest::SHA>, L<Digest::HMAC_MD5>
 
-=head1 AUTHOR
+=head1 MAINTAINER
+
+Andrew Rodland <arodland@cpan.org>
+
+=head1 ORIGINAL AUTHOR
 
 Gisle Aas <gisle@aas.no>
 

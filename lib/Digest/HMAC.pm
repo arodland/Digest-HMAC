@@ -113,7 +113,11 @@ L<Digest::HMAC_MD5>, L<Digest::HMAC_SHA1>
 
 RFC 2104
 
-=head1 AUTHORS
+=head1 MAINTAINER
+
+Andrew Rodland <arodland@cpan.org>
+
+=head1 ORIGINAL AUTHORS
 
 Graham Barr <gbarr@ti.com>, Gisle Aas <gisle@aas.no>
 

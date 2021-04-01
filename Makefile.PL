@@ -20,7 +20,7 @@ my %WriteMakefileArgs = (
     "Digest::MD5" => 2,
     "Digest::SHA" => 1
   },
-  "VERSION" => "1.03_01",
+  "VERSION" => "1.04",
   "test" => {
     "TESTS" => "t/*.t"
   }

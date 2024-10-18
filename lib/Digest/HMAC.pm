@@ -45,8 +45,7 @@ sub b64digest { shift->_digest->b64digest; }
 
 require Exporter;
 *import = \&Exporter::import;
-use vars qw(@EXPORT_OK);
-@EXPORT_OK = qw(hmac hmac_hex);
+our @EXPORT_OK = qw(hmac hmac_hex);
 
 sub hmac
 {

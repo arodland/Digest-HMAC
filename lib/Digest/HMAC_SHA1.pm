@@ -7,8 +7,7 @@ use Digest::SHA qw(sha1);
 use Digest::HMAC qw(hmac);
 
 # OO interface
-use vars qw(@ISA);
-@ISA=qw(Digest::HMAC);
+our @ISA=qw(Digest::HMAC);
 sub new
 {
     my $class = shift;

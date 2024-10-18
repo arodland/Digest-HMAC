@@ -7,8 +7,7 @@ use Digest::MD5  qw(md5);
 use Digest::HMAC qw(hmac);
 
 # OO interface
-use vars qw(@ISA);
-@ISA=qw(Digest::HMAC);
+our @ISA=qw(Digest::HMAC);
 sub new
 {
     my $class = shift;
